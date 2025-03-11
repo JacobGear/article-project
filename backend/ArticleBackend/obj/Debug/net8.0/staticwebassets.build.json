@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rmgwy+tkrtdWEPXWPYNVWBW1BF7KJE9T4QtbLiNOGFg=",
+  "Source": "ArticleBackend",
+  "BasePath": "_content/ArticleBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
