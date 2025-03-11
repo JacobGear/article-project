@@ -32,5 +32,33 @@ namespace ArticleBackend.Services
             await _context.SaveChangesAsync();
             return article;
         }
+
+         public async Task<Article> UpdateArticle(int id, Article article)
+        {
+            var existingArticle = await _context.Articles.FindAsync(id);
+            if (existingArticle == null)
+            {
+                return null;
+            }
+
+            // Dynamically update properties (only if they are changed)
+            _context.Entry(existingArticle).CurrentValues.SetValues(article);
+            await _context.SaveChangesAsync();
+
+            return existingArticle;
+        }
+
+        public async Task<bool> DeleteArticle(int id)
+        {
+            var article = await _context.Articles.FindAsync(id);
+            if (article == null)
+            {
+                return false;
+            }
+
+            _context.Articles.Remove(article);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }

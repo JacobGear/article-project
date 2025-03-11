@@ -170,3 +170,11 @@ C:\Git\OTher\article-project\backend\ArticleBackend\obj\Debug\net8.0\refint\Arti
 C:\Git\OTher\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.pdb
 C:\Git\OTher\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.genruntimeconfig.cache
 C:\Git\OTher\article-project\backend\ArticleBackend\obj\Debug\net8.0\ref\ArticleBackend.dll
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.csproj.AssemblyReference.cache
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.AssemblyInfoInputs.cache
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.AssemblyInfo.cs
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.csproj.CoreCompileInputs.cache
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\article-project\backend\ArticleBackend\obj\Debug\net8.0\ArticleBackend.sourcelink.json

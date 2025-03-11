@@ -9,5 +9,7 @@ namespace ArticleBackend.Interfaces
         Task<List<Article>> GetArticles();
         Task<Article> GetArticleById(int id);
         Task<Article> CreateArticle(Article article);
+        Task<Article> UpdateArticle(int id, Article article);
+        Task<bool> DeleteArticle(int id);
     }
 }

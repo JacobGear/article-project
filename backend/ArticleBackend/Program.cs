@@ -20,7 +20,8 @@ builder.Services.AddCors(options =>
                        .AllowAnyHeader());
 });
 
-builder.Services.AddScoped<IArticleService, InMemoryArticleService>();
+builder.Services.AddScoped<IArticleService, DbArticleService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

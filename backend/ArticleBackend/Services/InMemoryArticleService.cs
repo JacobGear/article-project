@@ -24,5 +24,33 @@ namespace ArticleBackend.Services
             _articles.Add(article);
             return Task.FromResult(article);
         }
+
+        public Task<Article> UpdateArticle(int id, Article article)
+        {
+            var existingArticle = _articles.FirstOrDefault(a => a.ArticleId == id);
+            if (existingArticle == null)
+            {
+                return Task.FromResult<Article>(null);
+            }
+
+            existingArticle.Title = article.Title;
+            existingArticle.Content = article.Content;
+            existingArticle.AuthorId = article.AuthorId;
+            existingArticle.CategoryId = article.CategoryId;
+
+            return Task.FromResult(existingArticle);
+        }
+
+        public Task<bool> DeleteArticle(int id)
+        {
+            var article = _articles.FirstOrDefault(a => a.ArticleId == id);
+            if (article == null)
+            {
+                return Task.FromResult(false);
+            }
+
+            _articles.Remove(article);
+            return Task.FromResult(true);
+        }
     }
 }
